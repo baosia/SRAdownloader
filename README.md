@@ -2,7 +2,7 @@
 Bash scripts for downloading single- or paired-end reads from NCBI SRA
 
 Includes 2 shell scripts: 
-SRRdownloaderP.sh
+SRRfastq.sh
 SRRfasterq2.sh
 
 Both use utilities from the SRAToolkit available from NCBI:
@@ -12,7 +12,7 @@ https://github.com/ncbi/sra-tools
 
 Install the toolkit and add it to your bash profile's $PATH variable before executing the scripts. 
 
-### SRRdownloaderP.sh ###
+### SRRfastq.sh ###
 This one uses the old utility fastq-dump to download datasets. It's pretty slow.
 
 ### SRRfasterq2.sh ###
