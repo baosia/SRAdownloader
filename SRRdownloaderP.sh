@@ -13,9 +13,9 @@ fi
 
 if [ "${ends}" = "p" ]; then
 #fastq-dump command will produce 3 files: file_1.fastq = forward reads, file_2.fastq = reverse reads, file.fastq = orphaned reads. 
-	~/SRAtoolkit-master/sratoolkit.2.8.1-2-centos_linux64/bin/fastq-dump --outdir fastq --readids --split-3 ${fastq} > ${fastq}.out &
+	fastq-dump --outdir fastq --readids --split-3 ${fastq} > ${fastq}.out &
 elif [ "${ends}" = "s" ]; then
-	~/SRAtoolkit-master/sratoolkit.2.8.1-2-centos_linux64/bin/fastq-dump --outdir fastq --readids ${fastq} > ${fastq}.out &
+	fastq-dump --outdir fastq --readids ${fastq} > ${fastq}.out &
 else
 	echo Invalid read end selection.
 	exit
