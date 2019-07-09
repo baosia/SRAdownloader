@@ -23,3 +23,6 @@ Execute the shellcripts by typing in your linux terminal:
 	./SRRfasterq2.sh
 
 Respond to the prompts and your download will begin assuming all is well. 
+
+*Note about controlled access data:
+These scripts can be used to download data from controlled access collections (dbGaP for example). You simply need to execute them from the directory with the name of your repository key. See dbGaP for how to generate the key and how to configure SRAToolkit to use it: https://ncbi.github.io/sra-tools/pd_usage_guide.html
