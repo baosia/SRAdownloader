@@ -5,7 +5,7 @@ Includes 2 shell scripts:
 SRRfastq.sh
 SRRfasterq2.sh
 
-Both use utilities from the SRAToolkit available from NCBI:
+Both use utilities from the SRA-Toolkit available from NCBI:
 https://www.ncbi.nlm.nih.gov/sra/docs/toolkitsoft/
 or
 https://github.com/ncbi/sra-tools
@@ -25,4 +25,4 @@ Execute the shellcripts by typing in your linux terminal:
 Respond to the prompts and your download will begin assuming all is well. 
 
 *Note about controlled access data:
-These scripts can be used to download data from controlled access collections (dbGaP for example). You simply need to execute them from the directory with the name of your repository key. See dbGaP for how to generate the key and how to configure SRAToolkit to use it: https://ncbi.github.io/sra-tools/pd_usage_guide.html
+These scripts can be used to download data from controlled access collections (dbGaP for example). You simply need to execute them from the directory with the name of your repository key. See dbGaP for how to generate the key and how to configure SRA-Toolkit to use it: https://ncbi.github.io/sra-tools/pd_usage_guide.html
